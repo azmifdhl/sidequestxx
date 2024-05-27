@@ -1,0 +1,114 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.des {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul {
+    display: flex;
+    padding:25px;
+
+}
+
+header {
+    background: #9E6752;
+    color: rgb(255, 255, 255); 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+
+} 
+
+.logo {
+    margin-right: auto;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all .7s ease 0s;
+    
+    }
+
+.logo:hover {
+    color: #FED7A5;
+
+}
+
+.btn-cta {
+    margin-right: 15px;
+    border: none;
+    font-size: 20px;
+    padding: 7px 13px;
+    background: #FED7A5;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    padding: 6px;
+}
+
+li a {
+    transition: all .5s ease 0s;
+}
+li a:hover {
+    color: #FED7A5;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.descrition{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.img-foto {
+    width: 70%;
+    max-width: 300px;
+    max-height: 500px;
+    padding: 5px;
+}
+
+.parallax {
+    background-image: url(img/WhatsApp\ Image\ 2024-05-27\ at\ 14.33.28.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkslategray;
+    color: rgb(208, 226, 241);
+}
